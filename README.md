@@ -10,6 +10,8 @@ An exploratory data analysis (EDA) and unsupervised machine learning project inv
 - [Methodology & Workflow](#-methodology--workflow)
 - [Key Findings & Insights](#-key-findings--insights)
 - [Repository Structure](#-repository-structure)
+- [Tech Stack & Installation](#-tech-stack--installation)
+- [Future Improvements](#-future-improvements)
 
 ---
 
@@ -23,7 +25,12 @@ This project explores a subset of passenger data to answer two core research que
 ---
 
 ## Dataset Description
-The raw dataset (`DatasetTitanic.csv`) contains **179 passenger records** across **6 primary features**:
+The master dataset file contains **892 rows**. To set up this analysis, a test split was generated using Scikit-Learn's `train_test_split`:
+
+```python
+# Split into training rows and 179 testing rows
+train_df, unclean_df = train_test_split(df, test_size=0.2, random_state=42)
+print(len(unclean_df))  # Output: 179
 
 | Feature | Type | Description |
 | :--- | :--- | :--- |
@@ -68,3 +75,23 @@ The raw dataset (`DatasetTitanic.csv`) contains **179 passenger records** across
 ├── Titanic_Tragedy.docx  # Comprehensive written analysis report with code outputs[cite: 2]
 ├── Titanic_Tragedy.ipynb      # Google Colab / Jupyter Notebook containing Python code & K-Means model[cite: 3]
 └── README.md                   # Project documentation
+
+---
+
+Tech Stack & Installation
+
+Languages & Libraries:
+
+- Python 3
+- pandas (Data manipulation & cleaning)[cite: 2, 3]
+- matplotlib (Data visualization)[cite: 2]
+- scikit-learn (K-Means clustering)[cite: 2, 3]
+
+Future Improvements
+
+To build a more accurate predictive model, future iterations of this dataset should incorporate[cite: 1, 2]:
+
+- Cabin Class / Accommodation Type (explicit 1st, 2nd, and 3rd class labels)[cite: 1, 2]
+- Group Size / Travelling Alone (to measure family vs. solo evacuation dynamics)[cite: 1, 2]
+- Lifeboat Access (binary indicator of whether a passenger reached a lifeboat)[cite: 1, 2]
+- Supervised Classification Models (e.g., Logistic Regression, Random Forest) to predict survival probability alongside K-     Means clustering.
