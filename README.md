@@ -25,12 +25,7 @@ This project explores a subset of passenger data to answer two core research que
 ---
 
 ## Dataset Description
-The master dataset file contains **892 rows**. To set up this analysis, a test split was generated using Scikit-Learn's `train_test_split`:
-
-```python
-# Split into training rows and 179 testing rows
-train_df, unclean_df = train_test_split(df, test_size=0.2, random_state=42)
-print(len(unclean_df))  # Output: 179
+The master dataset file contains **892 rows**. To set up this analysis, a test split was generated using Scikit-Learn's `train_test_split`
 
 | Feature | Type | Description |
 | :--- | :--- | :--- |
