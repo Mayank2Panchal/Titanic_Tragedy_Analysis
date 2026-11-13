@@ -65,7 +65,6 @@ The master dataset file contains **892 rows**. To set up this analysis, a test s
 
 ## 📁 Repository Structure
 
-```text
 ├── Titanic_Tragedy.pptx     # Presentation deck summarizing methodology, charts, and insights[cite: 1]
 ├── Titanic_Tragedy.docx  # Comprehensive written analysis report with code outputs[cite: 2]
 ├── Titanic_Tragedy.ipynb      # Google Colab / Jupyter Notebook containing Python code & K-Means model[cite: 3]
