@@ -10,9 +10,6 @@ An exploratory data analysis (EDA) and unsupervised machine learning project inv
 - [Methodology & Workflow](#-methodology--workflow)
 - [Key Findings & Insights](#-key-findings--insights)
 - [Repository Structure](#-repository-structure)
-- [Tech Stack & Installation](#-tech-stack--installation)
-- [Future Improvements](#-future-improvements)
-- [Team Members](#-team-members)
 
 ---
 
