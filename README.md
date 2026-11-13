@@ -65,14 +65,14 @@ The master dataset file contains **892 rows**. To set up this analysis, a test s
 
 ## 📁 Repository Structure
 
-├── Titanic_Tragedy.pptx     # Presentation deck summarizing methodology, charts, and insights[cite: 1]
-├── Titanic_Tragedy.docx  # Comprehensive written analysis report with code outputs[cite: 2]
-├── Titanic_Tragedy.ipynb      # Google Colab / Jupyter Notebook containing Python code & K-Means model[cite: 3]
-└── README.md                   # Project documentation
+- Titanic_Tragedy.pptx     # Presentation deck summarizing methodology, charts, and insights[cite: 1]            
+- Titanic_Tragedy.docx     # Comprehensive written analysis report with code outputs[cite: 2]                    
+- Titanic_Tragedy.ipynb    # Google Colab / Jupyter Notebook containing Python code & K-Means model[cite: 3]                 
+- README.md                # Project documentation
 
 ---
 
-Tech Stack & Installation
+🛠️ Tech Stack & Installation
 
 Languages & Libraries:
 
@@ -81,7 +81,7 @@ Languages & Libraries:
 - matplotlib (Data visualization)[cite: 2]
 - scikit-learn (K-Means clustering)[cite: 2, 3]
 
-Future Improvements
+🚀 Future Improvements
 
 To build a more accurate predictive model, future iterations of this dataset should incorporate[cite: 1, 2]:
 
