@@ -64,7 +64,7 @@ The raw dataset (`DatasetTitanic.csv`) contains **179 passenger records** across
 ## 📁 Repository Structure
 
 ```text
-├── bus201_titanic_ppt.pptx     # Presentation deck summarizing methodology, charts, and insights[cite: 1]
-├── bus201_titanic_report.docx  # Comprehensive written analysis report with code outputs[cite: 2]
-├── titanic_analysis.ipynb      # Google Colab / Jupyter Notebook containing Python code & K-Means model[cite: 3]
+├── Titanic_Tragedy.pptx     # Presentation deck summarizing methodology, charts, and insights[cite: 1]
+├── Titanic_Tragedy.docx  # Comprehensive written analysis report with code outputs[cite: 2]
+├── Titanic_Tragedy.ipynb      # Google Colab / Jupyter Notebook containing Python code & K-Means model[cite: 3]
 └── README.md                   # Project documentation
